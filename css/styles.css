@@ -1,0 +1,82 @@
+body {
+  color: #333;
+  font-family: Verdana, sans-serif;
+  margin: 0px;
+  margin: 0;
+}
+
+header {
+  background-color: #e4f0fc;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+:root {
+  /* 変数定義 */
+  --page-width: 450px;
+}
+
+.container {
+  width: var(--page-width);
+  margin-left: auto;
+  margin-right: auto;
+  /* フレックスボックス(要素を並列配置する) */
+  display: flex;
+  align-items: center;
+}
+
+.icon img {
+  /* 丸型にし、縁を作る */
+  border-radius: 50%;
+  border-width: 5px;
+  border-style: solid;
+  border-color: white;
+}
+
+.foreword {
+  margin-left: 32px;
+}
+
+.foreword h1 {
+  font-weight: bold;
+  font-size: 34px;
+  margin: 0;
+}
+
+.foreword p {
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+/* 作品紹介ロゴ */
+.product {
+  margin-top: 60px;
+  text-align: center;
+}
+
+
+.intro {
+  width: var(--page-width);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro > section {
+  margin-bottom: 60px;
+}
+
+.intro > section > h1 {
+  font-weight: normal;
+  font-size: 26px
+}
+
+.intro p {
+  line-height: 1.8;
+}
+
+footer p {
+  text-align: center;
+  font-size 14px;
+  margin-bottom: 60px;
+  color: gray;
+}
