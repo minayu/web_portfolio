@@ -1,7 +1,6 @@
 body {
   color: #333;
   font-family: Verdana, sans-serif;
-  margin: 0px;
   margin: 0;
 }
 
@@ -13,7 +12,7 @@ header {
 
 :root {
   /* 変数定義 */
-  --page-width: 450px;
+  --page-width: 400px;
 }
 
 .container {
